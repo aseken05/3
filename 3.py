@@ -1,0 +1,15 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Salad")
+canvas = tk.Canvas(root, width=300, height=300)
+canvas.pack()
+# Draw lettuce
+lettuce1 = canvas.create_oval(50, 50, 100, 75, fill="green")
+lettuce2 = canvas.create_oval(40, 70, 110, 95, fill="green")
+lettuce3 = canvas.create_oval(30, 90, 120, 115, fill="green")
+lettuce4 = canvas.create_oval(20, 110, 130, 135, fill="green")
+lettuce5 = canvas.create_oval(30, 130, 120, 155, fill="green")
+lettuce6 = canvas.create_oval(40, 150, 110, 175, fill="green")
+lettuce7 = canvas.create_oval(50, 170, 100, 195, fill="green")
+root.mainloop()
+print('lkmklmklefvmkf kmlsfmklsmklsf mlsf mkl')
